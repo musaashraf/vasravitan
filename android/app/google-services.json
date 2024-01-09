@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272270914159",
+    "project_id": "vasravitan-ab9e0",
+    "storage_bucket": "vasravitan-ab9e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272270914159:android:8f9bc5e49b1224932dd39a",
+        "android_client_info": {
+          "package_name": "com.example.vasravitan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRtEKYPhUNlgcPMLM-LRLDv1e_gYJ7SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
