@@ -122,7 +122,7 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
             ),
           ),
           CategorySection(categoryProvider: categoryProvider),
-          // const SizedBox(height: 15),
+           const SizedBox(height: 15),
 
           // Product StreamBuilder
           StreamBuilder<QuerySnapshot>(

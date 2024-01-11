@@ -16,7 +16,7 @@ import '../../components/single_order_item.dart';
 import '../../widgets/are_you_sure_dialog.dart';
 import '../main_screen.dart';
 import '../../../models/buyer.dart';
-//import 'package:flutterwave_standard/flutterwave.dart';
+import 'package:flutterwave_standard/flutterwave.dart';
 import 'package:uuid/uuid.dart';
 
 class OrdersScreen extends StatefulWidget {
