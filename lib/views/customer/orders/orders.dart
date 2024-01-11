@@ -16,7 +16,7 @@ import '../../components/single_order_item.dart';
 import '../../widgets/are_you_sure_dialog.dart';
 import '../main_screen.dart';
 import '../../../models/buyer.dart';
-import 'package:flutterwave_standard/flutterwave.dart';
+//import 'package:flutterwave_standard/flutterwave.dart';
 import 'package:uuid/uuid.dart';
 
 class OrdersScreen extends StatefulWidget {
@@ -172,8 +172,8 @@ class _OrdersScreenState extends State<OrdersScreen> {
       final Flutterwave flutterwave = Flutterwave(
         context: context,
         publicKey: apiPublicKey!,
-        currency: 'USD',
-        redirectUrl: 'https://github.com/Atuoha/shoes_shop',
+        currency: 'BDT',
+        redirectUrl: 'https://github.com/musaashraf/vasravitan',
         txRef: uuid.v1(),
         amount: orderData.getTotal.toString(),
         customer: customer,

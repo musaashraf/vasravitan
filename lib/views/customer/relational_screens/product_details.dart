@@ -452,7 +452,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen>
                         children: [
                           ItemRow(
                             value: widget.product.category,
-                            title: 'Shoe category: ',
+                            title: 'Cloth category: ',
                           ),
                           const SizedBox(height: 5),
                           ItemRow(

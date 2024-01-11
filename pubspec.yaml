@@ -60,7 +60,7 @@ dependencies:
   confetti: ^0.7.0
   syncfusion_flutter_charts: ^21.2.6
   intl: ^0.18.1
-  uuid: ^4.2.2
+  uuid:
   path: ^1.8.3
   permission_handler: ^10.3.0
   flutter_staggered_grid_view: ^0.6.2

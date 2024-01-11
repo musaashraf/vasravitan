@@ -206,7 +206,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             CircleAvatar(
-                              radius: 65,
+                              radius: 45,
                               backgroundColor: primaryColor,
                               backgroundImage: NetworkImage(
                                 credential!['image'],
@@ -215,7 +215,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             Text(
                               credential!['fullname'],
                               style: const TextStyle(
-                                fontSize: 18,
+                                fontSize: 12,
                                 color: Colors.white,
                                 fontWeight: FontWeight.w600,
                               ),
