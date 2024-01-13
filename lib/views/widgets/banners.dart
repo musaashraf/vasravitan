@@ -23,7 +23,7 @@ class _BannerComponentState extends State<BannerComponent> {
         .then((QuerySnapshot querySnapshot) {
       for (var data in querySnapshot.docs) {
         setState(() {
-          _banners.add(data['img_url']);
+          _banners.add(data['img_urls']);
         });
       }
     });
@@ -54,7 +54,7 @@ class _BannerComponentState extends State<BannerComponent> {
             )
           : ClipRRect(
               borderRadius: BorderRadius.circular(10),
-              child: Image.asset(AssetManager.logoTransparent,),
+              child: Image.asset(AssetManager.emptyImg,),
             ),
       options: CarouselOptions(
         height: 150,

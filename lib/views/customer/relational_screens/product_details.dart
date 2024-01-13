@@ -259,7 +259,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen>
         // msg for user after adding item to cart
         displaySnackBar(
           status: Status.success,
-          message: '${product.productName} removed from cart successfully',
+          message: '{product.productName} removed from cart successfully',
           context: cxt,
         );
       } else {
