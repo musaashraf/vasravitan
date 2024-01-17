@@ -414,8 +414,8 @@ class _CustomerAuthScreenState extends State<CustomerAuthScreen> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Image.asset(
-                                      //AssetManager.googleImage,
-                                      'assets/images/google.png',
+                                      AssetManager.googleImage,
+                                      //'assets/images/google.png',
                                       width: 20,
                                     ),
                                     const SizedBox(width: 20),
