@@ -25,6 +25,8 @@ class CartProvider extends ChangeNotifier {
     return totalAmount;
   }
 
+
+
   // get product quantity on cart
   int getProductQuantityOnCart(String prodId) {
     int quantity = 0;
