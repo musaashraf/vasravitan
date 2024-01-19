@@ -24,6 +24,7 @@ class Config {
       }
     }
 
+
     const storage = FlutterSecureStorage();
     await storage.write(
         key: 'flutterwave_public_key', value: flutterwavePublicKey);

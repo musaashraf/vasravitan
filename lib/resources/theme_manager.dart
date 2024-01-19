@@ -26,6 +26,7 @@ ThemeData getLightTheme() {
       ),
     ),
 
+
     // Bottom sheet theme
     bottomSheetTheme: const BottomSheetThemeData(
       backgroundColor: backgroundLite,
