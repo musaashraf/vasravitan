@@ -45,6 +45,7 @@ class _EditProfileState extends State<EditProfile> {
     _fullnameController.text = credential!['fullname'];
     _phoneController.text = credential!['phone'];
     _addressController.text = credential!['address'];
+
     setState(() {
       isLoading = false;
     });
